@@ -2,7 +2,7 @@
 
 ## C1 — Pilotage de la veille et de l'innovation
 
-> [!TIPS] 
+> [!NOTE] 
 > ### Contextualisation
 >Pour une petite entreprise sans automatisation, la veille est un enjeu critique car l'information stratégique (concurrentielle, réglementaire, technologique) circule encore de manière informelle, par email, conversation ou mémoire individuelle. Sans processus structuré, l'entreprise risque de manquer des évolutions réglementaires (RGPD, AI Act) ou des opportunités technologiques qui pourraient transformer son positionnement. Mettre en place une veille organisée, même légère, est donc la première brique de toute stratégie data.
 
@@ -16,7 +16,7 @@
 | **Inoreader** | Agrégateur RSS avancé avec règles d’automatisation et surveillance de sources non-RSS. | Version gratuite généreuse (150 flux), archive permanente, règles d’automatisation, surveillance de pages sans RSS. | Interface plus dense, courbe d’apprentissage plus raide. |
 | **Google Alerts** | Service gratuit d’alertes par e-mail sur des mots-clés. | Gratuit, simplicité extrême, couverture de l’index Google. | Pas d’analyse de sentiment, sources limitées au web indexé, délais importants. |
 
-> [!IMPORTANT] 
+> [!TIP] 
 > ### Recommandation
 >**Inoreader (version gratuite puis version pro à 7,50 $/mois)**
 >
@@ -24,7 +24,7 @@
 >
 >Feedly serait préférable pour une équipe plus large bénéficiant d'un budget confortable et privilégiant la simplicité. Google Alerts, bien que gratuit, est insuffisant car il ne couvre pas les sources sociales et ne permet aucune automatisation.
 
->[!WARNING]
+>[!CAUTION]
 >### Limite 
 >Inoreader ne résout pas le problème de la qualification de l'information, il collecte et filtre, mais ne dit pas si une mise à jour réglementaire est réellement applicable à StreamVault ou si une nouvelle version de framework vaut la peine d'être adoptée. Cette analyse d'impact reste manuelle et dépend de la compétence des data engineers.
 
