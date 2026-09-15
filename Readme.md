@@ -55,11 +55,11 @@
 
 >[!CAUTION]
 >
->Mention ne résout pas la veille réglementaire spécialisée (RGPD, AI Act) : il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
+>Mention ne résout pas la veille réglementaire spécialisée (RGPD, AI Act), il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
 
 >[!CAUTION]
 >
->Notion n’agrège pas nativement les flux RSS : il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
+>Notion n’agrège pas nativement les flux RSS, il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
 
 ## C2 — Manager l'innovation (technologique, organisationnelle, économique)
 
@@ -110,13 +110,13 @@
 ### Limite
 
 > [!CAUTION]
-> Figma ne remplace pas les tests utilisateurs réels : un prototype peut sembler convaincant sans valider le besoin métier.
+> Figma ne remplace pas les tests utilisateurs réels, un prototype peut sembler convaincant sans valider le besoin métier.
 
 > [!CAUTION]
-> Lean Canvas ne garantit pas la faisabilité technique ni la scalabilité : il faut ensuite un prototypage et des tests de charge.
+> Lean Canvas ne garantit pas la faisabilité technique ni la scalabilité, il faut ensuite un prototypage et des tests de charge.
 
 > [!CAUTION]
-> GreenIT-Analysis ne mesure pas l’empreinte de l’infrastructure data (cloud, stockage, calcul) ; il faut compléter par une analyse cloud spécifique.
+> GreenIT-Analysis ne mesure pas l’empreinte de l’infrastructure data (cloud, stockage, calcul) , il faut compléter par une analyse cloud spécifique.
 
 ---
 
@@ -160,7 +160,7 @@
 
 > [!TIP]
 > **Draw.io**
-> Draw.io est gratuit, simple et suffisant pour modéliser les processus métier de TradeCorp. Lucidchart est plus collaboratif mais payant ; BPMN seul est une notation, pas un outil. Draw.io permet de passer rapidement du schéma au partage.
+> Draw.io est gratuit, simple et suffisant pour modéliser les processus métier de TradeCorp. Lucidchart est plus collaboratif mais payant. BPMN seul est une notation, pas un outil. Draw.io permet de passer rapidement du schéma au partage.
 
 > [!TIP]
 > **WAVE**
@@ -169,10 +169,10 @@
 ### Limite
 
 > [!CAUTION]
-> Notion ne remplace pas un cahier des charges formel signé : il peut manquer de traçabilité contractuelle.
+> Notion ne remplace pas un cahier des charges formel signé, il peut manquer de traçabilité contractuelle.
 
 > [!CAUTION]
-> Draw.io ne valide pas les processus avec les métiers : la modélisation doit être accompagnée d’ateliers.
+> Draw.io ne valide pas les processus avec les métiers, la modélisation doit être accompagnée d’ateliers.
 
 > [!CAUTION]
 > WAVE ne couvre pas tous les handicaps (auditif, cognitif) et ne remplace pas un audit RGAA complet.
@@ -215,7 +215,7 @@
 
 > [!TIP]
 > **SWOT**
-> Pour TradeCorp, le SWOT est le point de départ le plus rapide pour croiser interne/externe sans mobiliser un consultant. PESTEL et Porter sont trop lourds pour une première analyse ; ils pourront compléter ensuite.
+> Pour TradeCorp, le SWOT est le point de départ le plus rapide pour croiser interne/externe sans mobiliser un consultant. PESTEL et Porter sont trop lourds pour une première analyse, ils pourront compléter ensuite.
 
 > [!TIP]
 > **Well-Architected Framework**
@@ -223,18 +223,18 @@
 
 > [!TIP]
 > **k6**
-> k6 est léger, scriptable et s’intègre en CI, ce qui convient à une petite équipe data. JMeter est plus lourd ; Locust demande plus de code. k6 permet de tester la scalabilité avant production sans infrastructure complexe.
+> k6 est léger, scriptable et s’intègre en CI, ce qui convient à une petite équipe data. JMeter est plus lourd. Locust demande plus de code. k6 permet de tester la scalabilité avant production sans infrastructure complexe.
 
 ### Limite
 
 > [!CAUTION]
-> SWOT reste subjectif et ne mesure pas la faisabilité technique : il doit être confronté à l’audit.
+> SWOT reste subjectif et ne mesure pas la faisabilité technique, il doit être confronté à l’audit.
 
 > [!CAUTION]
 > Well-Architected Framework est orienté cloud et ne couvre pas les spécificités data/IA (MLOps, lineage).
 
 > [!CAUTION]
-> k6 ne teste pas la sécurité ni la résilience en cas de panne réelle ; il faut compléter par des tests de chaos.
+> k6 ne teste pas la sécurité ni la résilience en cas de panne réelle, il faut compléter par des tests de chaos.
 
 ---
 
@@ -274,7 +274,7 @@
 
 > [!TIP]
 > **NIST Cybersecurity Framework**
-> Pour TradeCorp, le NIST CSF est gratuit, flexible et proportionné à une PME. ISO 27001 est trop lourd à court terme ; ISO 27018 est trop spécifique. Le NIST permet de prioriser les actions selon les risques.
+> Pour TradeCorp, le NIST CSF est gratuit, flexible et proportionné à une PME. ISO 27001 est trop lourd à court terme, ISO 27018 est trop spécifique. Le NIST permet de prioriser les actions selon les risques.
 
 > [!TIP]
 > **Notion**
@@ -282,18 +282,18 @@
 
 > [!TIP]
 > **MLflow**
-> MLflow est open source, standard et permet de tracer les expériences et modèles sans coût de licence. Kubeflow est trop complexe ; Azure ML crée une dépendance. MLflow reste adapté à une équipe réduite.
+> MLflow est open source, standard et permet de tracer les expériences et modèles sans coût de licence. Kubeflow est trop complexe. Azure ML crée une dépendance. MLflow reste adapté à une équipe réduite.
 
 ### Limite
 
 > [!CAUTION]
-> Le NIST CSF ne fournit pas de mesures techniques prêtes à l’emploi : il faut les traduire en actions concrètes.
+> Le NIST CSF ne fournit pas de mesures techniques prêtes à l’emploi, il faut les traduire en actions concrètes.
 
 > [!CAUTION]
-> Notion ne gère pas les dépendances complexes ni les ressources : il peut devenir un simple tableau si la gouvernance n’est pas définie.
+> Notion ne gère pas les dépendances complexes ni les ressources, il peut devenir un simple tableau si la gouvernance n’est pas définie.
 
 > [!CAUTION]
-> MLflow ne couvre pas la gouvernance des données ni la conformité RGPD : il faut le coupler à un catalogue et à des politiques.
+> MLflow ne couvre pas la gouvernance des données ni la conformité RGPD, il faut le coupler à un catalogue et à des politiques.
 
 ---
 
@@ -338,7 +338,7 @@
 
 > [!TIP]
 > **Typeform**
-> Typeform est idéal pour envoyer des NPS courts et engageants. SurveyMonkey est plus lourd ; Google Forms trop limité pour analyser les tendances. Typeform s’intègre au CRM pour automatiser les relances.
+> Typeform est idéal pour envoyer des NPS courts et engageants. SurveyMonkey est plus lourd. Google Forms trop limité pour analyser les tendances. Typeform s’intègre au CRM pour automatiser les relances.
 
 > [!TIP]
 > **Notion**
@@ -347,79 +347,157 @@
 ### Limite
 
 > [!CAUTION]
-> HubSpot gratuit reste limité en automatisation et reporting : il ne remplace pas un CRM enterprise pour des besoins complexes.
+> HubSpot gratuit reste limité en automatisation et reporting, il ne remplace pas un CRM enterprise pour des besoins complexes.
 
 > [!CAUTION]
-> Le NPS est un indicateur déclaratif : il ne mesure pas le chiffre d’affaires réel ni la rétention.
+> Le NPS est un indicateur déclaratif, il ne mesure pas le chiffre d’affaires réel ni la rétention.
 
 > [!CAUTION]
-> Notion n’est pas un CRM : sans processus de relance, il peut devenir un simple journal sans impact commercial.
+> Notion n’est pas un CRM, sans processus de relance, il peut devenir un simple journal sans impact commercial.
+
+## Synthèse finale — Priorisation pour TradeCorp
+
+Parmi tous les thèmes traités, voici les 3 thèmes prioritaires à mettre en place en premier chez  TradeCorp, justifiés par leur urgence relative :
+
+    C1 — Pilotage de la veille et de l'innovation
+    Pourquoi en premier ? Sans veille structurée, TradeCorp ne peut ni anticiper les évolutions réglementaires (RGPD, AI Act) ni détecter les innovations technologiques qui pourraient menacer ou renforcer son positionnement. C'est la brique fondatrice de toute stratégie data, elle alimente les autres décisions. Inoreader (version gratuite) et Notion permettent de démarrer immédiatement, sans budget.
+
+    C6 — Définir une stratégie data/IA et un plan d'action
+    Pourquoi en deuxième ? Une fois la veille en place, TradeCorp doit clarifier sa stratégie de sécurisation des données et prioriser les actions par le risque. Le NIST CSF (gratuit) et MLflow (open source) permettent de structurer sans coût excessif. Sans cette étape, les projets data/IA risquent de se développer sans cadre, avec des risques de conformité et de sécurité.
+
+    C9 — Développer la relation client et sa fidélisation
+    Pourquoi en troisième ? TradeCorp dépend de ses clients B2B : la fidélisation est un enjeu de survie. HubSpot (gratuit) et Typeform permettent de mesurer le NPS et d'identifier les clients à risque, sans investissement lourd. Ce thème est prioritaire car il a un impact direct sur le chiffre d'affaires, mais il vient après la veille et la stratégie data car il s'appuie sur des données fiables et une organisation structurée.
+
+Pourquoi pas les autres ?
+Les thèmes C2 (innovation), C3 (besoins utilisateurs), C5 (diagnostic) et les autres sont importants mais moins urgents, ils supposent que la veille, la stratégie data et la relation client soient déjà en place. La gouvernance des données et la gestion des risques sont également critiques, mais elles peuvent être traitées dans un second temps, une fois les fondations posées. TradeCorp doit éviter de se disperser, mieux vaut trois thèmes traités en profondeur que dix survolés.
 
 ---
 
-## Annexe — Vocabulaire essentiel
+## Glossaire
 
 | Terme | Définition |
 |---|---|
-| **La veille technologique** | consiste à observer, collecter, analyser et diffuser des informations sur les nouveautés techniques et scientifiques pour anticiper les évolutions d'un secteur|
-| **veille consiste à rechercher** | consiste à collecter et analyser des informations sur les actions, les produits et les stratégies des concurrents pour anticiper les mouvements du marché|
-| **curation de contenu** |pratique qui consiste à rechercher, trier, sélectionner et partager les informations ou les médias les plus pertinents du web sur un sujet précis|
-| **agrégateur RSS** | outil qui rassemble sur une seule et même interface les nouveautés et les articles de plusieurs sites web ou blogs|
-| **alerte Google** | un service gratuit de Google qui vous envoie un e-mail dès qu'une nouvelle page web correspond à des mots-clés que vous avez choisis|
-| **outil de veille automatisée** | logiciel qui surveille Internet et collecte des informations utiles pour vous en continu, sans que vous ayez besoin de chercher manuellement|
-| **Data Catalog** | Inventaire des données et de leurs métadonnées. |
-| **Data Lineage** | Traçabilité du parcours et des transformations d'une donnée. |
-| **Data Governance** | Règles, rôles et processus permettant de maîtriser les données. |
-| **Data Quality** | Mesure de la qualité et de la fiabilité des données. |
-| **MLOps** | Industrialisation du cycle de vie des modèles ML. |
-| **RACI** | Méthode de répartition des responsabilités. |
-| **KPI** | Indicateur de performance. |
-| **OKR** | Objectifs associés à des résultats clés mesurables. |
-| **SLA** | Engagement de niveau de service. |
-| **RPO** | Quantité maximale de données acceptable à perdre. |
-| **RTO** | Durée maximale acceptable pour restaurer un service. |
-| **RBAC** | Contrôle d'accès basé sur les rôles. |
-| **RDF** | Modèle de représentation des connaissances par triplets. |
-| **OWL** | Langage permettant de formaliser une ontologie. |
-| **Ontologie** | Modèle formel des concepts et relations d'un domaine. |
-| **SPARQL** | Langage de requête pour les données RDF. |
-| **SWOT** | Forces, faiblesses, opportunités, menaces. |
-| **PESTEL** | Analyse de l'environnement externe. |
-| **PCA** | Plan de continuité d'activité. |
-| **PRA** | Plan de reprise d'activité. |
-| **CIA** | Confidentialité, intégrité, disponibilité. |
-| **EBIOS RM** | Méthode d'analyse des risques numériques de l'ANSSI. |
-| **MLOps** | Ensemble de pratiques pour industrialiser et surveiller les modèles ML. |
+| **Veille technologique** | Observer, collecter, analyser et diffuser des informations sur les nouveautés techniques et scientifiques pour anticiper les évolutions d’un secteur. |
+| **Veille concurrentielle** | Collecter et analyser des informations sur les actions, les produits et les stratégies des concurrents pour anticiper les mouvements du marché. |
+| **Curation de contenu** | Pratique qui consiste à rechercher, trier, sélectionner et partager les informations ou médias les plus pertinents du web sur un sujet précis. |
+| **Agrégateur RSS** | Outil qui rassemble sur une seule interface les nouveautés et articles de plusieurs sites web ou blogs. |
+| **Alerte Google** | Service gratuit de Google qui envoie un e-mail dès qu’une nouvelle page web correspond à des mots-clés choisis. |
+| **Outil de veille automatisée** | Logiciel qui surveille Internet et collecte des informations utiles en continu, sans recherche manuelle. |
+| **Design thinking** | Démarche de conception centrée sur l’utilisateur, itérative, qui alterne empathie, définition, idéation, prototypage et test. |
+| **Prototypage rapide** | Création rapide de maquettes ou de versions simplifiées d’un produit pour tester des hypothèses et recueillir des retours. |
+| **Lean startup** | Méthode de développement de produit qui privilégie l’expérimentation, le MVP et l’apprentissage validé pour réduire les risques. |
+| **MVP (Minimum Viable Product)** | Version minimale d’un produit contenant juste assez de fonctionnalités pour être testée auprès des premiers utilisateurs. |
+| **Matrice d’innovation** | Outil de classification des innovations selon leur degré de nouveauté (incrémentale, adjacente, radicale) et leur impact. |
+| **Green IT** | Ensemble de pratiques visant à réduire l’empreinte environnementale des technologies de l’information (matériel, logiciel, usages). |
+| **Empreinte carbone du numérique** | Quantité de gaz à effet de serre émise par les équipements, réseaux, centres de données et services numériques. |
+| **ODD 9** | Objectif de Développement Durable n°9 des Nations Unies : bâtir une infrastructure résiliente, promouvoir une industrialisation durable et encourager l’innovation. |
+| **Recueil de besoins** | Processus de collecte et de formalisation des attentes des utilisateurs ou parties prenantes pour définir un projet. |
+| **Cahier des charges fonctionnel** | Document qui décrit les besoins fonctionnels, les contraintes et les critères d’acceptation d’un projet. |
+| **User story** | Description courte d’une fonctionnalité du point de vue de l’utilisateur, souvent au format « En tant que… je veux… afin de… ». |
+| **Persona** | Profil fictif représentant un groupe d’utilisateurs cibles, utilisé pour guider la conception. |
+| **Accessibilité numérique** | Ensemble de règles et bonnes pratiques permettant à tous, y compris les personnes handicapées, d’accéder aux services numériques. |
+| **RGAA** | Référentiel Général d’Amélioration de l’Accessibilité : cadre français pour rendre les sites et applications accessibles. |
+| **WCAG** | Web Content Accessibility Guidelines : normes internationales d’accessibilité des contenus web. |
+| **Analyse SWOT** | Analyse des forces (Strengths), faiblesses (Weaknesses), opportunités (Opportunities) et menaces (Threats) d’une organisation. |
+| **Analyse PESTEL** | Analyse des facteurs externes : Politiques, Économiques, Socioculturels, Technologiques, Écologiques et Légaux. |
+| **Audit d’architecture SI** | Évaluation de l’architecture du système d’information pour identifier les forces, faiblesses et axes d’amélioration. |
+| **Scalabilité horizontale** | Capacité à augmenter la puissance en ajoutant des machines ou nœuds supplémentaires. |
+| **Scalabilité verticale** | Capacité à augmenter la puissance en ajoutant des ressources (CPU, RAM) à une machine existante. |
+| **Benchmark technique** | Comparaison de solutions ou architectures sur des critères définis (performance, coût, complexité) pour choisir objectivement. |
+| **Data strategy** | Stratégie d’entreprise définissant comment les données sont collectées, stockées, gouvernées, analysées et valorisées. |
+| **Architecture data-driven** | Organisation dont les décisions et processus s’appuient systématiquement sur l’analyse de données. |
+| **Triade CIA** | Confidentialité, Intégrité, Disponibilité : les trois piliers de la sécurité de l’information. |
+| **Matrice de risques** | Outil de priorisation des risques selon leur probabilité et leur impact. |
+| **Roadmap IA** | Feuille de route décrivant les étapes, priorités et livrables pour intégrer l’IA dans une organisation. |
+| **MLOps** | Ensemble de pratiques pour industrialiser le cycle de vie des modèles de machine learning (développement, déploiement, monitoring). |
+| **CRM** | Customer Relationship Management : outil de gestion de la relation client (contacts, interactions, pipeline commercial). |
+| **Fidélisation client B2B** | Ensemble d’actions visant à maintenir et développer la relation avec des clients professionnels sur le long terme. |
+| **NPS** | Net Promoter Score : indicateur de satisfaction client basé sur la probabilité de recommandation. |
+| **Techniques de négociation commerciale** | Méthodes pour parvenir à un accord gagnant-gagnant avec un client ou partenaire (BATNA, ancrage, concessions). |
+| **Account management** | Gestion d’un portefeuille de clients stratégiques, avec suivi personnalisé et développement de la relation. |
+| **KPI projet data** | Indicateurs clés de performance spécifiques aux projets data (taux d’erreur, latence, coût, vélocité). |
+| **ROI IA** | Retour sur investissement des projets d’intelligence artificielle : bénéfices mesurables par rapport aux coûts engagés. |
+| **OKR** | Objectives and Key Results : méthode de définition d’objectifs ambitieux et de résultats mesurables. |
+| **Post-mortem de projet** | Analyse rétrospective d’un projet terminé pour identifier les réussites, échecs et axes d’amélioration. |
+| **Vélocité d’équipe** | Quantité de travail (souvent en points de story) qu’une équipe agile réalise lors d’un sprint. |
+| **Management agile** | Approche de gestion d’équipe favorisant l’itération, l’autonomie, la collaboration et l’adaptation au changement. |
+| **Scrum Master** | Facilitateur de l’équipe Scrum, garant du respect du cadre agile et de la levée des obstacles. |
+| **Rétrospective d’équipe** | Réunion périodique où l’équipe analyse son fonctionnement pour améliorer ses pratiques. |
+| **1-to-1 manager** | Entretien individuel régulier entre un manager et un collaborateur pour faire le point et développer les compétences. |
+| **Matrice RACI** | Outil de clarification des rôles : Responsible, Accountable, Consulted, Informed pour chaque tâche. |
+| **Gouvernance des données** | Ensemble de règles, processus et responsabilités pour garantir la qualité, la sécurité et la valorisation des données. |
+| **Data catalog** | Inventaire structuré des données de l’entreprise (sources, descriptions, propriétaires, sensibilité). |
+| **Data lineage** | Traçabilité du parcours d’une donnée, depuis sa source jusqu’à son utilisation finale. |
+| **Plan de Gouvernance des Données (PGD)** | Document stratégique définissant les principes, rôles et processus de gouvernance des données. |
+| **DAMA-DMBOK** | Référentiel de bonnes pratiques en gouvernance des données, couvrant 11 domaines (qualité, sécurité, metadata, etc.). |
+| **Analyse de risques EBIOS RM** | Méthode ANSSI d’analyse des risques cyber en 5 ateliers, adaptée aux PME et aux organismes publics. |
+| **Matrice probabilité/impact** | Outil visuel de priorisation des risques selon leur probabilité d’occurrence et leur impact. |
+| **Plan de reprise d’activité (PRA)** | Procédure de restauration des systèmes et données après un sinistre majeur, avec objectifs de délai et de perte de données. |
+| **Plan de continuité d’activité (PCA)** | Dispositif permettant de maintenir les activités essentielles en cas de crise (solutions de secours, procédures). |
+| **Gestion de crise data** | Ensemble des actions de coordination, communication et remédiation en cas d’incident majeur sur les données. |
 
 ---
 
 ## Sources consultées
 
-1. PageCrawl — Best RSS Feed Monitoring Tools 2026 : https://pagecrawl.io/blog/best-rss-feed-monitoring-tools
-2. Inoreader — Alternative to Feedly : https://www.inoreader.com/ca/alternative-to-feedly
-3. StartPageHQ — Feedly vs Inoreader : https://startpagehq.com/compare/feedly-vs-inoreader
-4. Miro — Lean Canvas vs Business Model Canvas : https://miro.com/strategic-planning/lean-canvas-vs-business-model-canvas/
-5. Linden Innovation — BMC vs Lean Canvas : https://lindeninnovation.com/business-model-canvas-vs-lean-canvas/
-6. Projet Celsius — Empreinte carbone site web : https://projetcelsius.com/blog/empreinte-carbone-site-internet-guide/
-7. Eesel — Notion vs Confluence 2026 : https://www.eesel.ai/blog/notion-vs-confluence
-8. Fabric — Notion vs Confluence 2026 : https://fabric.so/comparison/notion-vs-confluence
-9. Crosscheck — axe vs WAVE vs Pa11y : https://crosscheck.cloud/blogs/axe-vs-wave-vs-pa11y-accessibility-testing/
-10. SWOTPal — SWOT vs PESTLE vs Porter 2026 : https://swotpal.com/academy/swot-vs-pestle-vs-porters-five-forces
-11. QAInsights — JMeter vs k6 vs Locust 2026 : https://qainsights.com/jmeter-vs-k6-vs-locust-in-2026-which-load-testing-tool-should-you-pick/
-12. QASkills — k6 vs JMeter 2026 : https://qaskills.sh/blog/k6-vs-jmeter-2026
-13. GetRoz — ISO 27001 vs NIST 2026 : https://www.getroz.com/blog/iso-27001-vs-nist
-14. Cyber Academy — EBIOS RM vs ISO 27005 : https://cyberacademy.net/resources/pillars/ebios-rm-vs-iso-27005
-15. Salesflare — Salesforce vs HubSpot vs Zoho vs Pipedrive 2026 : https://blog.salesflare.com/compare-salesforce-zoho-hubspot-pipedrive
-16. GetPricePulse — CRM Pricing Guide 2026 : https://www.getpricepulse.com/blog/crm-pricing-guide-2026.html
-17. QuestionPro — Typeform vs SurveyMonkey 2026 : https://www.questionpro.com/blog/typeform-vs-surveymonkey/
-18. Hayot Expertise — Power BI vs Tableau vs Looker Studio 2026 : https://hayot-expertise.fr/en/blog/power-bi-vs-tableau-vs-looker-studio-reporting-sme-2026
-19. Tech Insider — Trello vs Jira 2026 : https://tech-insider.org/trello-vs-jira-2026/
-20. ONES — Linear vs Jira vs Trello : https://ones.com/blog/linear-vs-jira-vs-trello-5-scenarios-to-choose-the-best-fit/
-21. Basedash — Best Data Catalog Tools 2026 : https://www.basedash.com/blog/best-data-catalog-tools-compared-2026
-22. Atlan — DAMA-DMBOK Framework : https://atlan.com/dama-dmbok-framework/
-23. Promethium — Data Governance Tools Comparison : https://promethium.ai/guides/data-governance-tools-comparison-collibra-alation-atlan-purview/
-24. Devforma — EBIOS RM ISO NIS2 DORA : https://devforma.com/ebios-rm-iso-nis2-dora/
-25. European Commission — AI Act : https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-26. Legiscope — CMP Comparison 2026 : https://www.legiscope.com/blog/consent-management-platforms-compared.html
-27. SecurePrivacy — Best CMP 2026 : https://secureprivacy.ai/blog/best-cmp-2026
-28. European Commission — AI Act Enforcement 2026 : https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en
+- Feedly : [https://feedly.com](https://feedly.com)
+- Inoreader : [https://www.inoreader.com](https://www.inoreader.com)
+- Google Alerts : [https://www.google.com/alerts](https://www.google.com/alerts)
+- Mention : [https://mention.com](https://mention.com)
+- Talkwalker : [https://www.talkwalker.com](https://www.talkwalker.com)
+- Pocket : [https://getpocket.com](https://getpocket.com)
+- Diigo : [https://www.diigo.com](https://www.diigo.com)
+- Notion : [https://www.notion.so](https://www.notion.so)
+- Figma : [https://www.figma.com](https://www.figma.com)
+- Miro : [https://miro.com](https://miro.com)
+- Balsamiq : [https://balsamiq.com](https://balsamiq.com)
+- EcoIndex : [https://www.ecoindex.fr](https://www.ecoindex.fr)
+- Website Carbon Calculator : [https://www.websitecarbon.com](https://www.websitecarbon.com)
+- GreenIT-Analysis : [https://www.greenit-analysis.com](https://www.greenit-analysis.com)
+- Confluence : [https://www.atlassian.com/software/confluence](https://www.atlassian.com/software/confluence)
+- Jira : [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)
+- Lucidchart : [https://www.lucidchart.com](https://www.lucidchart.com)
+- Draw.io : [https://www.drawio.com](https://www.drawio.com)
+- WAVE : [https://wave.webaim.org](https://wave.webaim.org)
+- Lighthouse : [https://developer.chrome.com/docs/lighthouse](https://developer.chrome.com/docs/lighthouse)
+- Axe DevTools : [https://www.deque.com/axe/devtools](https://www.deque.com/axe/devtools)
+- Well-Architected Framework : [https://aws.amazon.com/architecture/well-architected](https://aws.amazon.com/architecture/well-architected)
+- C4 Model : [https://c4model.com](https://c4model.com)
+- Apache JMeter : [https://jmeter.apache.org](https://jmeter.apache.org)
+- k6 : [https://k6.io](https://k6.io)
+- Locust : [https://locust.io](https://locust.io)
+- ISO 27001 : [https://www.iso.org/isoiec-27001-information-security.html](https://www.iso.org/isoiec-27001-information-security.html)
+- ISO 27018 : [https://www.iso.org/standard/76559.html](https://www.iso.org/standard/76559.html)
+- NIST Cybersecurity Framework : [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework)
+- ProductPlan : [https://www.productplan.com](https://www.productplan.com)
+- Aha! : [https://www.aha.io](https://www.aha.io)
+- MLflow : [https://mlflow.org](https://mlflow.org)
+- Kubeflow : [https://www.kubeflow.org](https://www.kubeflow.org)
+- Azure ML : [https://azure.microsoft.com/en-us/products/machine-learning](https://azure.microsoft.com/en-us/products/machine-learning)
+- Salesforce : [https://www.salesforce.com](https://www.salesforce.com)
+- HubSpot : [https://www.hubspot.com](https://www.hubspot.com)
+- Zoho CRM : [https://www.zoho.com/crm](https://www.zoho.com/crm)
+- Pipedrive : [https://www.pipedrive.com](https://www.pipedrive.com)
+- Typeform : [https://www.typeform.com](https://www.typeform.com)
+- SurveyMonkey : [https://www.surveymonkey.com](https://www.surveymonkey.com)
+- Monday.com : [https://monday.com](https://monday.com)
+- Power BI : [https://powerbi.microsoft.com](https://powerbi.microsoft.com)
+- Tableau : [https://www.tableau.com](https://www.tableau.com)
+- Looker Studio : [https://lookerstudio.google.com](https://lookerstudio.google.com)
+- Retrium : [https://www.retrium.com](https://www.retrium.com)
+- Linear : [https://linear.app](https://linear.app)
+- Trello : [https://trello.com](https://trello.com)
+- Slack : [https://slack.com](https://slack.com)
+- Microsoft Teams : [https://www.microsoft.com/en-us/microsoft-teams](https://www.microsoft.com/en-us/microsoft-teams)
+- Microsoft Purview : [https://azure.microsoft.com/en-us/products/purview](https://azure.microsoft.com/en-us/products/purview)
+- Collibra : [https://www.collibra.com](https://www.collibra.com)
+- Atlan : [https://atlan.com](https://atlan.com)
+- Apache Atlas : [https://atlas.apache.org](https://atlas.apache.org)
+- OpenLineage : [https://openlineage.io](https://openlineage.io)
+- DAMA-DMBOK : [https://www.dama.org](https://www.dama.org)
+- EBIOS RM : [https://www.ssi.gouv.fr/guide/ebios-risk-manager](https://www.ssi.gouv.fr/guide/ebios-risk-manager)
+- ISO 27005 : [https://www.iso.org/standard/80585.html](https://www.iso.org/standard/80585.html)
+- Azure Backup : [https://azure.microsoft.com/en-us/products/backup](https://azure.microsoft.com/en-us/products/backup)
+- RGAA : [https://www.numerique.gouv.fr/publications/rgaa-accessibilite](https://www.numerique.gouv.fr/publications/rgaa-accessibilite)
+- WCAG : [https://www.w3.org/WAI/standards-guidelines/wcag](https://www.w3.org/WAI/standards-guidelines/wcag)
+- ODD 9 : [https://www.un.org/sustainabledevelopment/fr/infrastructure](https://www.un.org/sustainabledevelopment/fr/infrastructure)
