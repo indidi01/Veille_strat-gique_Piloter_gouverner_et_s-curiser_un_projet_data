@@ -2,9 +2,9 @@
 
 ## C1 — Pilotage de la veille et de l'innovation
 
-> [!NOTE] 
+> [!NOTE]
 > ### Contextualisation
->Pour TradeCorp une petite entreprise sans automatisation, la veille est un enjeu critique car l'information stratégique (concurrentielle, réglementaire, technologique) circule encore de manière informelle, par email, conversation ou mémoire individuelle. Sans processus structuré, l'entreprise risque de manquer des évolutions réglementaires (RGPD, AI Act) ou des opportunités technologiques qui pourraient transformer son positionnement. Mettre en place une veille organisée, même légère, est donc la première brique de toute stratégie data.
+> Pour TradeCorp une petite entreprise sans automatisation, la veille est un enjeu critique car l'information stratégique (concurrentielle, réglementaire, technologique) circule encore de manière informelle, par email, conversation ou mémoire individuelle. Sans processus structuré, l'entreprise risque de manquer des évolutions réglementaires (RGPD, AI Act) ou des opportunités technologiques qui pourraient transformer son positionnement. Mettre en place une veille organisée, même légère, est donc la première brique de toute stratégie data.
 
 #### Agrégateurs de flux
 
@@ -32,34 +32,34 @@
 
 ### Tableau comparatif
 ### Recommandation
-> [!TIP] 
->**Inoreader (version gratuite puis version pro à 7,50 $/mois)**
+> [!TIP] Recommendation
+> **Inoreader (version gratuite puis version pro à 7,50 $/mois)**
 >
->Une équipe réduite ne peut pas se permettre de surveiller manuellement des dizaines de sources. Or, Inoreader offre dès sa version gratuite 150 flux (contre 100 pour Feedly) et intègre des règles d'automatisation qui permettent de taguer, filtrer et router automatiquement les articles vers des dossiers ou des canaux Slack. Cette automatisation est critique pour une équipe de 3 à 5 data engineers qui n'ont pas de temps dédié à la veille. De plus, l'archive permanente d'Inoreader garantit qu'aucun article n'est perdu au fil du temps, répondant directement à l'exigence de « conservation » de l'information. Enfin, la capacité à surveiller des sources non-RSS (comme les pages de release notes de frameworks qui ne publient pas de flux) est un atout majeur pour une veille technologique sur des outils comme Apache Spark ou Kafka.
+> Une équipe réduite ne peut pas se permettre de surveiller manuellement des dizaines de sources. Or, Inoreader offre dès sa version gratuite 150 flux (contre 100 pour Feedly) et intègre des règles d'automatisation qui permettent de taguer, filtrer et router automatiquement les articles vers des dossiers ou des canaux Slack. Cette automatisation est critique pour une équipe de 3 à 5 data engineers qui n'ont pas de temps dédié à la veille. De plus, l'archive permanente d'Inoreader garantit qu'aucun article n'est perdu au fil du temps, répondant directement à l'exigence de « conservation » de l'information. Enfin, la capacité à surveiller des sources non-RSS (comme les pages de release notes de frameworks qui ne publient pas de flux) est un atout majeur pour une veille technologique sur des outils comme Apache Spark ou Kafka.
 >
 >Feedly serait préférable pour une équipe plus large bénéficiant d'un budget confortable et privilégiant la simplicité. Google Alerts, bien que gratuit, est insuffisant car il ne couvre pas les sources sociales et ne permet aucune automatisation.
 
->[!TIP]
->**Mention**
+> [!TIP]
+> **Mention**
 >
->la nécessité de détecter rapidement les signaux faibles sur les réseaux sociaux et les forums, où les utilisateurs expriment leurs frustrations ou leurs attentes. Une petite équipe data n’a pas les ressources pour surveiller manuellement ces canaux. Mention offre une couverture multicanale (web, social, blogs, forums), des alertes en temps réel et une collaboration en équipe, ce qui permet de réagir vite à une vague de mécontentement ou à une tendance émergente. Talkwalker est trop coûteux et surdimensionné pour une équipe de 3 à 5 personnes. Google Alerts, bien que gratuit, ne couvre pas les réseaux sociaux et n’offre ni analyse de sentiment ni gestion collaborative. Mention est donc le meilleur compromis entre couverture, réactivité et budget.
+> la nécessité de détecter rapidement les signaux faibles sur les réseaux sociaux et les forums, où les utilisateurs expriment leurs frustrations ou leurs attentes. Une petite équipe data n’a pas les ressources pour surveiller manuellement ces canaux. Mention offre une couverture multicanale (web, social, blogs, forums), des alertes en temps réel et une collaboration en équipe, ce qui permet de réagir vite à une vague de mécontentement ou à une tendance émergente. Talkwalker est trop coûteux et surdimensionné pour une équipe de 3 à 5 personnes. Google Alerts, bien que gratuit, ne couvre pas les réseaux sociaux et n’offre ni analyse de sentiment ni gestion collaborative. Mention est donc le meilleur compromis entre couverture, réactivité et budget.
 
->[!TIP]
->**Notion**
+> [!TIP]
+> **Notion**
 >
->la centralisation de la veille dans un espace collaboratif unique, accessible à l’équipe data mais aussi aux équipes produit et DSI. Notion permet de créer une base de veille avec tags, vues filtrées, notes et statuts, tout en centralisant la documentation existante. Pocket est trop individuel et inadapté à un partage d’équipe. Diigo, bien que collaboratif, souffre d’une interface datée et d’une communauté moins active. Notion est gratuit pour les petites équipes, flexible et s’intègre naturellement aux workflows déjà en place. Il répond à l’exigence de diffusion et de conservation de l’information sans ajouter de complexité technique.
+> la centralisation de la veille dans un espace collaboratif unique, accessible à l’équipe data mais aussi aux équipes produit et DSI. Notion permet de créer une base de veille avec tags, vues filtrées, notes et statuts, tout en centralisant la documentation existante. Pocket est trop individuel et inadapté à un partage d’équipe. Diigo, bien que collaboratif, souffre d’une interface datée et d’une communauté moins active. Notion est gratuit pour les petites équipes, flexible et s’intègre naturellement aux workflows déjà en place. Il répond à l’exigence de diffusion et de conservation de l’information sans ajouter de complexité technique.
 
 ### Limite 
->[!CAUTION]
->Inoreader ne résout pas le problème de la qualification de l'information, il collecte et filtre, mais ne dit pas si une mise à jour réglementaire est réellement applicable à TradeCorp ou si une nouvelle version de framework vaut la peine d'être adoptée. Cette analyse d'impact reste manuelle et dépend de la compétence des data engineers.
+> [!CAUTION]
+> Inoreader ne résout pas le problème de la qualification de l'information, il collecte et filtre, mais ne dit pas si une mise à jour réglementaire est réellement applicable à TradeCorp ou si une nouvelle version de framework vaut la peine d'être adoptée. Cette analyse d'impact reste manuelle et dépend de la compétence des data engineers.
 
->[!CAUTION]
+> [!CAUTION]
 >
->Mention ne résout pas la veille réglementaire spécialisée (RGPD, AI Act), il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
+> Mention ne résout pas la veille réglementaire spécialisée (RGPD, AI Act), il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
 
->[!CAUTION]
+> [!CAUTION]
 >
->Notion n’agrège pas nativement les flux RSS, il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
+> Notion n’agrège pas nativement les flux RSS, il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
 
 ## C2 — Manager l'innovation (technologique, organisationnelle, économique)
 
@@ -359,16 +359,16 @@
 
 Parmi tous les thèmes traités, voici les 3 thèmes prioritaires à mettre en place en premier chez  TradeCorp, justifiés par leur urgence relative :
 
-    C1 — Pilotage de la veille et de l'innovation
-    Pourquoi en premier ? Sans veille structurée, TradeCorp ne peut ni anticiper les évolutions réglementaires (RGPD, AI Act) ni détecter les innovations technologiques qui pourraient menacer ou renforcer son positionnement. C'est la brique fondatrice de toute stratégie data, elle alimente les autres décisions. Inoreader (version gratuite) et Notion permettent de démarrer immédiatement, sans budget.
+**C1 — Pilotage de la veille et de l'innovation**
+Pourquoi en premier ? Sans veille structurée, TradeCorp ne peut ni anticiper les évolutions réglementaires (RGPD, AI Act) ni détecter les innovations technologiques qui pourraient menacer ou renforcer son positionnement. C'est la brique fondatrice de toute stratégie data, elle alimente les autres décisions. Inoreader (version gratuite) et Notion permettent de démarrer immédiatement, sans budget.
 
-    C6 — Définir une stratégie data/IA et un plan d'action
-    Pourquoi en deuxième ? Une fois la veille en place, TradeCorp doit clarifier sa stratégie de sécurisation des données et prioriser les actions par le risque. Le NIST CSF (gratuit) et MLflow (open source) permettent de structurer sans coût excessif. Sans cette étape, les projets data/IA risquent de se développer sans cadre, avec des risques de conformité et de sécurité.
+**C6 — Définir une stratégie data/IA et un plan d'action**
+Pourquoi en deuxième ? Une fois la veille en place, TradeCorp doit clarifier sa stratégie de sécurisation des données et prioriser les actions par le risque. Le NIST CSF (gratuit) et MLflow (open source) permettent de structurer sans coût excessif. Sans cette étape, les projets data/IA risquent de se développer sans cadre, avec des risques de conformité et de sécurité.
 
-    C9 — Développer la relation client et sa fidélisation
-    Pourquoi en troisième ? TradeCorp dépend de ses clients B2B : la fidélisation est un enjeu de survie. HubSpot (gratuit) et Typeform permettent de mesurer le NPS et d'identifier les clients à risque, sans investissement lourd. Ce thème est prioritaire car il a un impact direct sur le chiffre d'affaires, mais il vient après la veille et la stratégie data car il s'appuie sur des données fiables et une organisation structurée.
+**C9 — Développer la relation client et sa fidélisation**
+Pourquoi en troisième ? TradeCorp dépend de ses clients B2B : la fidélisation est un enjeu de survie. HubSpot (gratuit) et Typeform permettent de mesurer le NPS et d'identifier les clients à risque, sans investissement lourd. Ce thème est prioritaire car il a un impact direct sur le chiffre d'affaires, mais il vient après la veille et la stratégie data car il s'appuie sur des données fiables et une organisation structurée.
 
-Pourquoi pas les autres ?
+**Pourquoi pas les autres ?**
 Les thèmes C2 (innovation), C3 (besoins utilisateurs), C5 (diagnostic) et les autres sont importants mais moins urgents, ils supposent que la veille, la stratégie data et la relation client soient déjà en place. La gouvernance des données et la gestion des risques sont également critiques, mais elles peuvent être traitées dans un second temps, une fois les fondations posées. TradeCorp doit éviter de se disperser, mieux vaut trois thèmes traités en profondeur que dix survolés.
 
 ---
