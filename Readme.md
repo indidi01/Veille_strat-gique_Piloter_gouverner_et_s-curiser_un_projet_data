@@ -355,6 +355,200 @@
 > [!CAUTION]
 > Notion n’est pas un CRM, sans processus de relance, il peut devenir un simple journal sans impact commercial.
 
+## —— Évaluation de la performance d'un projet en ingénierie de données/IA
+
+> [!NOTE]
+> ### Contextualisation
+> TradeCorp doit justifier ses investissements data/IA auprès de sa direction et de ses clients. Sans indicateurs de performance (KPI) ni retour sur investissement (ROI) mesuré, il est impossible de démontrer la valeur créée ni d'ajuster les priorités. Pourtant, l'équipe n'a pas de processus de suivi formalisé, et les projets se terminent souvent sans post-mortem structuré.
+
+#### Suivi de KPI / reporting
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Power BI** | Outil de Business Intelligence de Microsoft pour dashboards et rapports. | Intégration Microsoft, puissant, large communauté, version gratuite (Desktop). | Nécessite une licence Pro pour partager, courbe d'apprentissage, dépendance à l'écosystème Microsoft. |
+| **Tableau** | Plateforme de visualisation de données avancée. | Très puissant, interface intuitive, visualisations riches. | Coût élevé, moins adapté aux petites structures, licence par utilisateur. |
+| **Looker Studio** | Outil de reporting gratuit de Google, connecté à de nombreuses sources. | Gratuit, intégration Google (Sheets, BigQuery), partage facile, templates. | Moins puissant que Power BI/Tableau, limites sur les sources de données, performances variables. |
+
+#### Définition d'objectifs
+
+| Méthode | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **OKR** | Objectives and Key Results : méthode de définition d'objectifs ambitieux et mesurables. | Aligne les équipes, transparent, focus sur les résultats, adopté par Google. | Peut être contre-productif si mal utilisé (objectifs trop nombreux), nécessite une discipline. |
+| **KPI projet data** | Indicateurs spécifiques (taux d'erreur, latence, coût par requête, vélocité). | Mesure concrète de la performance technique et métier, adapté aux projets data. | Ne dit rien sur l'alignement stratégique, peut être trop technique. |
+| **Notion / Confluence** | Documentation et suivi des objectifs dans un espace collaboratif. | Centralisation, historique, flexible, déjà utilisé. | Pas de fonctionnalités OKR natives, dépend de la discipline. |
+
+#### Rétrospective de projet
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Retrium** | Outil dédié aux rétrospectives d'équipe agile. | Structuré, facilite l'animation, templates variés, collaboratif. | Payant, surdimensionné pour une petite équipe, nécessite une adoption. |
+| **Template post-mortem** | Modèle simple (Markdown, Notion) pour analyser un projet terminé. | Gratuit, flexible, adapté à tous les projets, pas de formation. | Pas d'automatisation, dépend de la rigueur de l'équipe, peut être oublié. |
+
+### Tableau comparatif
+
+| Besoin | Outil recommandé | Alternative | Écarté |
+| --- | --- | --- | --- |
+| Suivi de KPI | **Looker Studio** | Power BI | Tableau |
+| Définition d'objectifs | **OKR** | KPI projet | Notion seul |
+| Rétrospective | **Template post-mortem** | Retrium | — |
+
+### Recommandation
+
+> [!TIP]
+> **Looker Studio**
+> Pour TradeCorp, Looker Studio est préféré à Power BI et Tableau : il est gratuit, s'intègre à Google Sheets et BigQuery, et permet de créer des dashboards partageables sans coût supplémentaire. La méthode OKR est recommandée pour aligner les objectifs data sur la stratégie d'entreprise, à condition de limiter le nombre d'OKR (3 maximum). Enfin, un template de post-mortem simple (Markdown ou Notion) suffit pour capitaliser sur les projets terminés.
+
+### Limite
+
+> [!CAUTION]
+> Looker Studio est moins performant que Power BI ou Tableau sur de gros volumes de données et dépend de l'écosystème Google. Les OKR peuvent devenir un exercice de style si la direction ne les utilise pas réellement pour piloter. Le template de post-mortem n'est efficace que si l'équipe prend le temps de le remplir.
+
+## —— Management d'équipe dans un projet data/IA
+
+> [!NOTE]
+> ### Contextualisation
+> TradeCorp fonctionne avec une équipe réduite de 3 à 5 data engineers, sans Scrum Master dédié ni processus agile formalisé. Les responsabilités sont floues, la communication repose sur des échanges informels, et les rétrospectives ne sont pas systématiques. Pourtant, la clarté des rôles et une communication structurée sont essentielles pour éviter les blocages et les doublons.
+
+#### Gestion agile d'équipe
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Jira** | Outil de gestion de projet agile avec sprints, backlogs et tableaux. | Standard, traçabilité, rapports, intégration DevOps. | Complexe, payant, peut être lourd pour une petite équipe. |
+| **Linear** | Outil de suivi de projet moderne, rapide et épuré. | Interface très rapide, keyboard-first, gratuit pour petites équipes, intégration Git. | Moins de fonctionnalités que Jira, pas de gestion de portefeuille. |
+| **Trello** | Gestion de tâches visuelle par tableaux Kanban. | Très simple, gratuit, visuel, prise en main immédiate. | Pas de gestion de sprints native, limites en version gratuite, peu adapté aux projets complexes. |
+
+#### Communication d'équipe
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Slack** | Messagerie d'équipe avec canaux, intégrations et automatisations. | Très riche, intégrations nombreuses, canaux thématiques, version gratuite. | Historique limité en gratuit, peut devenir bruyant, dépendance à une solution propriétaire. |
+| **Microsoft Teams** | Plateforme de communication et collaboration intégrée à Microsoft 365. | Intégration Office, visio, canaux, inclus dans Microsoft 365. | Interface parfois lourde, moins fluide que Slack, dépendance à Microsoft. |
+
+#### Répartition des responsabilités
+
+| Méthode | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Matrice RACI** | Matrice qui définit qui est Responsible, Accountable, Consulted, Informed pour chaque tâche. | Clarifie les rôles, évite les doublons, simple à mettre en place. | Statique, peut devenir obsolète, nécessite une mise à jour régulière. |
+| **1-to-1 manager** | Entretiens individuels réguliers entre manager et collaborateur. | Détecte les problèmes tôt, développe les compétences, améliore la motivation. | Chronophage, dépend de la qualité du manager, peut être superficiel. |
+
+### Tableau comparatif
+
+| Besoin | Outil recommandé | Alternative | Écarté |
+| --- | --- | --- | --- |
+| Gestion agile | **Linear** | Jira | Trello |
+| Communication | **Slack** | Microsoft Teams | — |
+| Répartition des rôles | **Matrice RACI** | 1-to-1 | — |
+
+### Recommandation
+
+> [!TIP]
+> **Linear**
+> Pour TradeCorp, Linear est préféré à Jira et Trello : il est gratuit pour les petites équipes, très rapide, et suffisant pour gérer un backlog et des sprints sans la complexité de Jira. Slack est recommandé pour la communication : ses canaux thématiques et ses intégrations (GitHub, Linear, alertes) centralisent les échanges sans noyer l'équipe.
+
+> [!TIP]
+> **Matrice RACI**
+> Essentielle pour clarifier les responsabilités dans une équipe réduite où les rôles sont flous. Elle permet d'éviter les malentendus et de responsabiliser chacun. Les 1-to-1 restent utiles mais ne remplacent pas une clarification formelle des rôles.
+
+### Limite
+
+> [!CAUTION]
+> Linear ne gère pas les dépendances complexes entre projets ni les portefeuilles, ce qui peut devenir limitant si TradeCorp grandit. Slack en version gratuite limite l'historique et les intégrations. La Matrice RACI doit être mise à jour régulièrement, sinon elle devient contre-productive. Aucun outil ne remplace une culture d'équipe saine.
+
+## —— Gouvernance des données
+
+> [!NOTE]
+> ### Contextualisation
+> TradeCorp manipule des données clients et des données techniques de plus en plus nombreuses, mais sans gouvernance formalisée : personne ne sait précisément quelles données existent, d'où elles viennent, ni qui y a accès. Cette opacité représente un risque réglementaire (RGPD) et opérationnel (qualité, confiance). Mettre en place une gouvernance légère est indispensable pour préparer la scalabilité.
+
+#### Catalogues de données
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Microsoft Purview** | Solution de gouvernance et de catalogage de données intégrée à Azure. | Intégration Azure, scan automatique, classification, conformité. | Coût élevé, dépendance à Azure, complexe à mettre en place. |
+| **Collibra** | Plateforme de gouvernance des données orientée grands comptes. | Très complète, workflows, qualité, lineage, référence marché. | Très coûteuse, surdimensionnée pour une PME, courbe d'apprentissage élevée. |
+| **Atlan** | Catalogue de données moderne avec collaboration et lineage. | Interface moderne, collaboratif, lineage, intégrations nombreuses. | Payant, moins adapté aux petites structures, nécessite une adoption. |
+
+#### Traçabilité (data lineage)
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Apache Atlas** | Framework open source de gouvernance et de lineage pour Hadoop. | Open source, mature, lineage, classification, intégration Hive/HBase. | Complexe à déployer, orienté Hadoop, nécessite une expertise. |
+| **OpenLineage** | Standard ouvert pour la collecte de lineage, intégré à de nombreux outils. | Open source, standard, intégrations (Spark, Airflow, dbt), flexible. | Nécessite un backend de stockage, pas d'interface native, jeune écosystème. |
+
+#### Référentiel méthodologique
+
+| Référentiel | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **DAMA-DMBOK** | Référentiel de gouvernance des données le plus reconnu, couvrant 11 domaines. | Complet, structurant, reconnu, bonnes pratiques. | Volumineux, théorique, nécessite une adaptation au contexte. |
+
+### Tableau comparatif
+
+| Besoin | Outil recommandé | Alternative | Écarté |
+| --- | --- | --- | --- |
+| Traçabilité | **OpenLineage** | Apache Atlas | — |
+| Méthodologie | **DAMA-DMBOK** | — | — |
+| Catalogue | **Documentation Notion** | Atlan | Purview / Collibra |
+
+### Recommandation
+
+> [!TIP]
+> **OpenLineage + DAMA-DMBOK (adapté)**
+> Pour TradeCorp, OpenLineage est recommandé pour la traçabilité : il est open source, s'intègre aux outils déjà utilisés (Spark, Airflow, dbt), et permet de suivre le lineage sans investir dans une solution coûteuse. Le DAMA-DMBOK est utilisé comme référentiel méthodologique, mais de manière adaptée : inutile de couvrir les 11 domaines, on se concentre sur les plus critiques (qualité, sécurité, metadata). Un catalogue de données complet n'est pas justifié à ce stade.
+
+### Limite
+
+> [!CAUTION]
+> OpenLineage nécessite un backend de stockage et une certaine expertise technique : il ne fournit pas d'interface clé en main. Le DAMA-DMBOK est théorique et doit être traduit en actions concrètes. Sans un porteur dédié à la gouvernance, ces outils restent des coquilles vides : la gouvernance des données est d'abord un enjeu organisationnel.
+
+## —— Gestion des risques
+
+> [!NOTE]
+> ### Contextualisation
+> TradeCorp fait face à des risques variés : cyberattaques, pertes de données, indisponibilité de services, non-conformité RGPD. Sans analyse de risques structurée ni plan de reprise, une panne ou une fuite pourrait avoir des conséquences graves pour une petite structure. Pourtant, la gestion des risques est encore informelle, souvent traitée en réaction plutôt qu'en anticipation.
+
+#### Méthodologie d'analyse de risques
+
+| Méthode | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **EBIOS RM** | Méthode ANSSI d'analyse de risques en 5 ateliers. | Reconnue en France, rigoureuse, adaptée aux PME, couvre les risques cyber. | Nécessite une formation, peut être longue, orientée sécurité. |
+| **ISO 27005** | Norme internationale pour la gestion des risques liés à la sécurité de l'information. | Standard, complète ISO 27001, structurée. | Payante, complexe, moins accessible qu'EBIOS RM. |
+| **Matrice probabilité/impact** | Outil simple de priorisation des risques selon leur probabilité et leur impact. | Très simple, visuel, rapide, accessible à tous. | Subjectif, ne couvre pas les dépendances entre risques, statique. |
+
+#### Outils de suivi de risques
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Registre Excel/Notion** | Tableau de suivi des risques avec criticité, responsable, plan d'action. | Gratuit, flexible, déjà utilisé, pas de formation. | Pas d'alertes automatiques, peut être oublié, pas de workflow. |
+| **Riskonect** | Outil spécialisé de gestion des risques. | Fonctionnalités dédiées, alertes, reporting. | Payant, surdimensionné pour une PME, adoption nécessaire. |
+
+#### Sauvegarde et reprise
+
+| Outil | Description | Avantages | Inconvénients |
+| --- | --- | --- | --- |
+| **Azure Backup** | Service de sauvegarde managé dans Azure. | Intégré à Azure, automatisé, sécurisé, scalable. | Coût récurrent, dépendance à Azure, complexe si multi-cloud. |
+| **Solutions PRA cloud** | Plans de reprise d'activité basés sur le cloud (réplication, bascule). | Résilience élevée, automatisation, coût maîtrisé si bien dimensionné. | Nécessite une architecture adaptée, coût, complexité. |
+
+### Tableau comparatif
+
+| Besoin | Outil recommandé | Alternative | Écarté |
+| --- | --- | --- | --- |
+| Analyse de risques | **EBIOS RM** | Matrice probabilité/impact | ISO 27005 |
+| Suivi des risques | **Registre Notion** | Riskonect | — |
+| Sauvegarde | **Azure Backup** | Solution PRA cloud | — |
+
+### Recommandation
+
+> [!TIP]
+> **EBIOS RM + registre Notion + Azure Backup**
+> Pour TradeCorp, EBIOS RM est recommandé car il est adapté aux PME, reconnu en France, et permet de couvrir les risques cyber et RGPD de manière structurée. Le suivi des risques peut se faire dans un registre Notion simple : inutile d'investir dans Riskonect à ce stade. Pour la sauvegarde, Azure Backup (ou une solution équivalente chez un autre cloud) est recommandé si l'infrastructure est déjà dans le cloud : il automatise les sauvegardes et permet une restauration rapide.
+
+### Limite
+
+> [!CAUTION]
+> EBIOS RM nécessite une formation et du temps : son application peut être partielle si l'équipe n'est pas accompagnée. Le registre Notion n'alerte pas automatiquement en cas de risque non traité. Azure Backup ne constitue pas un PRA complet : il protège contre la perte de données, mais pas contre une indisponibilité prolongée de la région cloud. Un vrai PRA implique une architecture multi-région ou multi-cloud, plus coûteuse.
+
+---
+
 ## Synthèse finale — Priorisation pour TradeCorp
 
 Parmi tous les thèmes traités, voici les 3 thèmes prioritaires à mettre en place en premier chez  TradeCorp, justifiés par leur urgence relative :
