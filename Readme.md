@@ -2,9 +2,12 @@
 
 ## C1 — Pilotage de la veille et de l'innovation
 
+ ### Contextualisation
 > [!NOTE]
-> ### Contextualisation
+> 
 > Pour TradeCorp une petite entreprise sans automatisation, la veille est un enjeu critique car l'information stratégique (concurrentielle, réglementaire, technologique) circule encore de manière informelle, par email, conversation ou mémoire individuelle. Sans processus structuré, l'entreprise risque de manquer des évolutions réglementaires (RGPD, AI Act) ou des opportunités technologiques qui pourraient transformer son positionnement. Mettre en place une veille organisée, même légère, est donc la première brique de toute stratégie data.
+
+### Tableau comparatif
 
 #### Agrégateurs de flux
 
@@ -30,9 +33,9 @@
 | **Diigo** | Outil de bookmarking social qui permet d’annoter, surligner et organiser des pages web en groupes collaboratifs. | Annotation collaborative, surlignage, recherche plein texte, archivage des pages, groupes de partage. | Interface datée, communauté moins active, fonctionnalités avancées payantes, peut paraître complexe pour un usage léger. |
 | **Notion** | Outil tout-en-un de gestion de connaissances qui centralise articles, notes, tags et vues filtrées dans une base de données collaborative. | Très flexible, collaboratif en temps réel, centralise veille et documentation, gratuit pour petites équipes, vues personnalisables (tableau, kanban, calendrier). | Nécessite une discipline de structuration, pas d’agrégation RSS native (dépend d’intégrations type Zapier), peut devenir désordonné sans règles claires. |
 
-### Tableau comparatif
 ### Recommandation
-> [!TIP] Recommendation
+
+> [!TIP]
 > **Inoreader (version gratuite puis version pro à 7,50 $/mois)**
 >
 > Une équipe réduite ne peut pas se permettre de surveiller manuellement des dizaines de sources. Or, Inoreader offre dès sa version gratuite 150 flux (contre 100 pour Feedly) et intègre des règles d'automatisation qui permettent de taguer, filtrer et router automatiquement les articles vers des dossiers ou des canaux Slack. Cette automatisation est critique pour une équipe de 3 à 5 data engineers qui n'ont pas de temps dédié à la veille. De plus, l'archive permanente d'Inoreader garantit qu'aucun article n'est perdu au fil du temps, répondant directement à l'exigence de « conservation » de l'information. Enfin, la capacité à surveiller des sources non-RSS (comme les pages de release notes de frameworks qui ne publient pas de flux) est un atout majeur pour une veille technologique sur des outils comme Apache Spark ou Kafka.
@@ -49,23 +52,32 @@
 >
 > la centralisation de la veille dans un espace collaboratif unique, accessible à l’équipe data mais aussi aux équipes produit et DSI. Notion permet de créer une base de veille avec tags, vues filtrées, notes et statuts, tout en centralisant la documentation existante. Pocket est trop individuel et inadapté à un partage d’équipe. Diigo, bien que collaboratif, souffre d’une interface datée et d’une communauté moins active. Notion est gratuit pour les petites équipes, flexible et s’intègre naturellement aux workflows déjà en place. Il répond à l’exigence de diffusion et de conservation de l’information sans ajouter de complexité technique.
 
-### Limite 
-> [!CAUTION]
-> Inoreader ne résout pas le problème de la qualification de l'information, il collecte et filtre, mais ne dit pas si une mise à jour réglementaire est réellement applicable à TradeCorp ou si une nouvelle version de framework vaut la peine d'être adoptée. Cette analyse d'impact reste manuelle et dépend de la compétence des data engineers.
+### Limite
 
 > [!CAUTION]
->
-> Mention ne résout pas la veille réglementaire spécialisée (RGPD, AI Act), il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
+> **Inoreader**
+> 
+> ne résout pas le problème de la qualification de l'information, il collecte et filtre, mais ne dit pas si une mise à jour réglementaire est réellement applicable à TradeCorp ou si une nouvelle version de framework vaut la peine d'être adoptée. Cette analyse d'impact reste manuelle et dépend de la compétence des data engineers.
 
 > [!CAUTION]
->
-> Notion n’agrège pas nativement les flux RSS, il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
+> **Mention**
+> 
+> ne résout pas la veille réglementaire spécialisée (RGPD, AI Act), il excelle sur les signaux sociaux et médiatiques, mais ne remplace pas un suivi structuré des textes officiels et des normes. De plus, son coût récurrent peut peser sur le budget d’une petite structure.
+
+> [!CAUTION]
+> **Notion**
+>  
+> n’agrège pas nativement les flux RSS, il dépend d’intégrations externes (Zapier, Make) pour automatiser la collecte, ce qui ajoute une dépendance technique. De plus, sans discipline de structuration, la base de veille peut rapidement devenir désordonnée et perdre sa valeur d’usage.
 
 ## C2 — Manager l'innovation (technologique, organisationnelle, économique)
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp, petite entreprise sans automatisation, ne peut pas se permettre d’innover par effet de mode. L’équipe data de 3 à 5 personnes doit évaluer rapidement la plus-value d’une technologie, son coût et son impact RSE (ODD 9, réduction de l’empreinte carbone). Un processus d’innovation léger, du prototype au MVP, est nécessaire pour éviter les investissements inutiles.
+
+### Tableau comparatif
 
 #### Prototypage / conception
 
@@ -91,40 +103,49 @@
 | **EcoIndex** | Outil de calcul de l’empreinte environnementale d’une page web. | Gratuit, score simple, bon pour sensibiliser. | Périmètre restreint, ne couvre pas le cloud/on-premise. |
 | **Website Carbon Calculator** | Estime les émissions CO2 d’un site web. | Simple, rapide, pédagogique. | Approximatif, peu actionnable pour une infra data. |
 
-### Tableau comparatif
-
 ### Recommandation
 
 > [!TIP]
 > **Figma**
+> 
 > Pour une équipe réduite, Figma permet de prototyper rapidement des interfaces sans développement, ce qui réduit le risque de construire une fonctionnalité inutile. Sa version gratuite suffit pour 3-5 personnes, et son intégration avec Notion/Jira fluidifie le passage du prototype au backlog.
 
 > [!TIP]
 > **Lean Canvas**
+> 
 > TradeCorp doit valider ses innovations avec un minimum de ressources. Lean Canvas force à formuler problème, solution, métriques et avantage déloyal en une page. Ansoff est trop macro et BMC trop lourd pour une itération hebdomadaire.
 
 > [!TIP]
 > **GreenIT-Analysis**
+> 
 > Pour intégrer l’ODD 9, GreenIT-Analysis donne un indicateur rapide et gratuit de l’empreinte d’une interface. Il sensibilise l’équipe sans ajouter de complexité. Website Carbon est trop approximatif, EcoIndex trop limité.
 
 ### Limite
 
 > [!CAUTION]
-> Figma ne remplace pas les tests utilisateurs réels, un prototype peut sembler convaincant sans valider le besoin métier.
+> **Figma**
+> 
+> ne remplace pas les tests utilisateurs réels, un prototype peut sembler convaincant sans valider le besoin métier.
 
 > [!CAUTION]
-> Lean Canvas ne garantit pas la faisabilité technique ni la scalabilité, il faut ensuite un prototypage et des tests de charge.
+> **Lean Canvas**
+> 
+>  ne garantit pas la faisabilité technique ni la scalabilité, il faut ensuite un prototypage et des tests de charge.
 
 > [!CAUTION]
-> GreenIT-Analysis ne mesure pas l’empreinte de l’infrastructure data (cloud, stockage, calcul) , il faut compléter par une analyse cloud spécifique.
-
----
+> **GreenIT-Analysis**
+> 
+> ne mesure pas l’empreinte de l’infrastructure data (cloud, stockage, calcul) , il faut compléter par une analyse cloud spécifique.
 
 ## C3 — Identifier les attentes et besoins utilisateurs/DSI
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp reçoit des demandes clients floues, souvent par email ou conversation informelle. Sans formalisation, l’équipe data risque de développer la mauvaise solution. De plus, l’accessibilité numérique (RGAA/WCAG) devient une obligation légale et un critère de qualité pour les interfaces destinées aux clients.
+
+### Tableau comparatif
 
 #### Recueil de besoins / specs
 
@@ -150,40 +171,49 @@
 | **Lighthouse** | Audit automatisé Google pour performance et accessibilité. | Intégré Chrome, gratuit, scores clairs, CI possible. | Automatique seulement, ne remplace pas test manuel. |
 | **Axe DevTools** | Extension de test d’accessibilité pour développeurs. | Précis, peu de faux positifs, intégration CI. | Version gratuite limitée, nécessite compétence technique. |
 
-### Tableau comparatif
-
 ### Recommandation
 
 > [!TIP]
 > **Notion**
+> 
 > Pour une équipe de 3-5 personnes, Notion centralise besoins, user stories et documentation sans coût supplémentaire. Il est plus souple que Confluence et plus accessible que Jira pour les métiers. Jira reste utile pour le suivi sprint, mais Notion suffit pour le recueil.
 
 > [!TIP]
 > **Draw.io**
+> 
 > Draw.io est gratuit, simple et suffisant pour modéliser les processus métier de TradeCorp. Lucidchart est plus collaboratif mais payant. BPMN seul est une notation, pas un outil. Draw.io permet de passer rapidement du schéma au partage.
 
 > [!TIP]
 > **WAVE**
+> 
 > WAVE est gratuit et visuel, idéal pour sensibiliser l’équipe à l’accessibilité sans compétence experte. Lighthouse est complémentaire pour la CI, mais WAVE reste le meilleur point d’entrée pour une petite structure.
 
 ### Limite
 
 > [!CAUTION]
-> Notion ne remplace pas un cahier des charges formel signé, il peut manquer de traçabilité contractuelle.
+> **Notion**
+> 
+> Ne remplace pas un cahier des charges formel signé, il peut manquer de traçabilité contractuelle.
 
 > [!CAUTION]
-> Draw.io ne valide pas les processus avec les métiers, la modélisation doit être accompagnée d’ateliers.
+> **Draw.io**
+> 
+> Ne valide pas les processus avec les métiers, la modélisation doit être accompagnée d’ateliers.
 
 > [!CAUTION]
-> WAVE ne couvre pas tous les handicaps (auditif, cognitif) et ne remplace pas un audit RGAA complet.
-
----
+> **WAVE**
+> 
+> Ne couvre pas tous les handicaps (auditif, cognitif) et ne remplace pas un audit RGAA complet.
 
 ## C5 — Diagnostiquer la problématique (environnement interne/externe)
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp doit diagnostiquer son SI avant toute migration cloud ou scalabilité. L’absence d’automatisation rend l’architecture existante difficile à évaluer. Un diagnostic interne/externe et des tests de charge permettent d’identifier les faiblesses sans mettre en production une infrastructure instable.
+
+### Tableau comparatif
 
 #### Diagnostic stratégique
 
@@ -209,39 +239,46 @@
 | **k6** | Outil de test de charge scriptable en JavaScript. | Moderne, léger, CI-friendly, résultats clairs. | Nécessite compétences JS, moins de protocoles. |
 | **Locust** | Test de charge en Python, distribué. | Code Python, scalable, interface web. | Nécessite développement, moins plug-and-play. |
 
-### Tableau comparatif
-
 ### Recommandation
 
 > [!TIP]
 > **SWOT**
+> 
 > Pour TradeCorp, le SWOT est le point de départ le plus rapide pour croiser interne/externe sans mobiliser un consultant. PESTEL et Porter sont trop lourds pour une première analyse, ils pourront compléter ensuite.
 
 > [!TIP]
 > **Well-Architected Framework**
+> 
 > Ce cadre aide à diagnostiquer les faiblesses d’un SI cloud selon des critères reconnus (sécurité, coût, fiabilité). C4 Model est utile pour documenter, mais ne remplace pas un audit. Le framework donne une feuille de route priorisée.
 
 > [!TIP]
 > **k6**
+> **
 > k6 est léger, scriptable et s’intègre en CI, ce qui convient à une petite équipe data. JMeter est plus lourd. Locust demande plus de code. k6 permet de tester la scalabilité avant production sans infrastructure complexe.
 
 ### Limite
 
 > [!CAUTION]
-> SWOT reste subjectif et ne mesure pas la faisabilité technique, il doit être confronté à l’audit.
+> **SWOT reste** 
+>
+>Subjectif et ne mesure pas la faisabilité technique, il doit être confronté à l’audit.
 
 > [!CAUTION]
-> Well-Architected Framework est orienté cloud et ne couvre pas les spécificités data/IA (MLOps, lineage).
+> **Well-Architected** 
+>
+>Framework est orienté cloud et ne couvre pas les spécificités data/IA (MLOps, lineage).
 
 > [!CAUTION]
-> k6 ne teste pas la sécurité ni la résilience en cas de panne réelle, il faut compléter par des tests de chaos.
-
----
+> **k6** 
+>
+>Ne teste pas la sécurité ni la résilience en cas de panne réelle, il faut compléter par des tests de chaos.
 
 ## C6 — Définir une stratégie data/IA et un plan d’action
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp doit aligner sa stratégie data sur ses objectifs business et sécuriser ses données. Sans priorisation par le risque, l’équipe risque de tout traiter en même temps. La triade CIA (confidentialité, intégrité, disponibilité) et une roadmap IA réaliste sont nécessaires pour éviter les projets non maîtrisés.
 
 #### Cadres de sécurité des données
@@ -274,33 +311,42 @@
 
 > [!TIP]
 > **NIST Cybersecurity Framework**
+>
 > Pour TradeCorp, le NIST CSF est gratuit, flexible et proportionné à une PME. ISO 27001 est trop lourd à court terme, ISO 27018 est trop spécifique. Le NIST permet de prioriser les actions selon les risques.
 
 > [!TIP]
 > **Notion**
+>
 > Notion suffit pour une roadmap data/IA légère, avec priorités, responsables et échéances. ProductPlan et Aha! sont payants et surdimensionnés pour 3-5 personnes.
 
 > [!TIP]
 > **MLflow**
+>
 > MLflow est open source, standard et permet de tracer les expériences et modèles sans coût de licence. Kubeflow est trop complexe. Azure ML crée une dépendance. MLflow reste adapté à une équipe réduite.
 
 ### Limite
 
 > [!CAUTION]
-> Le NIST CSF ne fournit pas de mesures techniques prêtes à l’emploi, il faut les traduire en actions concrètes.
+> **NIST**
+> 
+>CSF ne fournit pas de mesures techniques prêtes à l’emploi, il faut les traduire en actions concrètes.
 
 > [!CAUTION]
-> Notion ne gère pas les dépendances complexes ni les ressources, il peut devenir un simple tableau si la gouvernance n’est pas définie.
+> **Notion**
+> 
+> Ne gère pas les dépendances complexes ni les ressources, il peut devenir un simple tableau si la gouvernance n’est pas définie.
 
 > [!CAUTION]
-> MLflow ne couvre pas la gouvernance des données ni la conformité RGPD, il faut le coupler à un catalogue et à des politiques.
-
----
+> **MLflow**
+> 
+> Ne couvre pas la gouvernance des données ni la conformité RGPD, il faut le coupler à un catalogue et à des politiques.
 
 ## C9 — Développer la relation client et sa fidélisation
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp, en B2B, dépend d’un nombre limité de clients. La fidélisation est donc vitale. Sans CRM ni mesure de satisfaction, l’équipe risque de perdre des comptes sans signaux d’alerte. Le NPS et un suivi structuré des comptes permettent de prioriser les actions commerciales.
 
 #### CRM
@@ -334,31 +380,42 @@
 
 > [!TIP]
 > **HubSpot**
+> 
 > HubSpot offre un CRM gratuit et complet pour une PME B2B comme TradeCorp. Il est plus simple que Salesforce et plus complet que Pipedrive. La version gratuite permet de démarrer sans budget, puis d’évoluer.
 
 > [!TIP]
 > **Typeform**
+> 
 > Typeform est idéal pour envoyer des NPS courts et engageants. SurveyMonkey est plus lourd. Google Forms trop limité pour analyser les tendances. Typeform s’intègre au CRM pour automatiser les relances.
 
 > [!TIP]
 > **Notion**
+> 
 > Pour une petite équipe, Notion suffit pour suivre les comptes, les échanges et les prochaines actions. Monday.com est payant et plus orienté gestion de projet. Notion centralise déjà la veille et les specs, évitant un nouvel outil.
 
 ### Limite
 
 > [!CAUTION]
-> HubSpot gratuit reste limité en automatisation et reporting, il ne remplace pas un CRM enterprise pour des besoins complexes.
+> **HubSpot**
+>
+> Gratuit reste limité en automatisation et reporting, il ne remplace pas un CRM enterprise pour des besoins complexes.
 
 > [!CAUTION]
-> Le NPS est un indicateur déclaratif, il ne mesure pas le chiffre d’affaires réel ni la rétention.
+> **NPS**
+>
+> Est un indicateur déclaratif, il ne mesure pas le chiffre d’affaires réel ni la rétention.
 
 > [!CAUTION]
-> Notion n’est pas un CRM, sans processus de relance, il peut devenir un simple journal sans impact commercial.
+> **Notion**
+>
+> N’est pas un CRM, sans processus de relance, il peut devenir un simple journal sans impact commercial.
 
 ## —— Évaluation de la performance d'un projet en ingénierie de données/IA
 
+### Contextualisation
+
 > [!NOTE]
-> ### Contextualisation
+> 
 > TradeCorp doit justifier ses investissements data/IA auprès de sa direction et de ses clients. Sans indicateurs de performance (KPI) ni retour sur investissement (ROI) mesuré, il est impossible de démontrer la valeur créée ni d'ajuster les priorités. Pourtant, l'équipe n'a pas de processus de suivi formalisé, et les projets se terminent souvent sans post-mortem structuré.
 
 #### Suivi de KPI / reporting
@@ -384,18 +441,11 @@
 | **Retrium** | Outil dédié aux rétrospectives d'équipe agile. | Structuré, facilite l'animation, templates variés, collaboratif. | Payant, surdimensionné pour une petite équipe, nécessite une adoption. |
 | **Template post-mortem** | Modèle simple (Markdown, Notion) pour analyser un projet terminé. | Gratuit, flexible, adapté à tous les projets, pas de formation. | Pas d'automatisation, dépend de la rigueur de l'équipe, peut être oublié. |
 
-### Tableau comparatif
-
-| Besoin | Outil recommandé | Alternative | Écarté |
-| --- | --- | --- | --- |
-| Suivi de KPI | **Looker Studio** | Power BI | Tableau |
-| Définition d'objectifs | **OKR** | KPI projet | Notion seul |
-| Rétrospective | **Template post-mortem** | Retrium | — |
-
 ### Recommandation
 
 > [!TIP]
 > **Looker Studio**
+> 
 > Pour TradeCorp, Looker Studio est préféré à Power BI et Tableau : il est gratuit, s'intègre à Google Sheets et BigQuery, et permet de créer des dashboards partageables sans coût supplémentaire. La méthode OKR est recommandée pour aligner les objectifs data sur la stratégie d'entreprise, à condition de limiter le nombre d'OKR (3 maximum). Enfin, un template de post-mortem simple (Markdown ou Notion) suffit pour capitaliser sur les projets terminés.
 
 ### Limite
